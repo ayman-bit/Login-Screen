@@ -13,7 +13,9 @@ import javafx.stage.Stage;
 import javafx.scene.Node;
 
 
-
+/*
+@author Ayman Abu Awad
+ */
 
 
 public class Controller implements Initializable {
@@ -34,6 +36,10 @@ public class Controller implements Initializable {
     private void handleMin (ActionEvent event){
         Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         stage.setIconified(true);
+        /*
+        Trying to implement the minimize full screen and close button using Node..
+        For some reason it does not seem to work on Mac  >.>
+         */
         //stage.setFullScreen(true);
         //stage.close();
     }

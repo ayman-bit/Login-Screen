@@ -8,6 +8,11 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+/*
+@author Ayman Abu Awad
+ */
+
+
 public class Main extends Application {
 
     @Override
