@@ -3,6 +3,7 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
@@ -31,9 +32,10 @@
                     </font>
                 </Label>
                 <Hyperlink layoutX="96.0" layoutY="316.0" text="Forgot Password?" textFill="#c3b7b7" />
+            <JFXToggleButton fx:id="toggleButton" onAction="#handletoggle" />
             </children>
         </AnchorPane>
-        <ImageView fitHeight="400.0" fitWidth="592.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="Pic" fitHeight="400.0" fitWidth="592.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@Images/Welcome.jpg" />
             </image>
